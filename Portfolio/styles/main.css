@@ -1,0 +1,21 @@
+:root {
+    --color: color goes here;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 18px;
+    max-width: 50rem;
+    background-color: antiquewhite;
+    grid-template-areas:
+    "head main"
+    "nav main"
+    "nav footer";
+}
+body > nav {grid-area: "nav";}
+body > header {grid-area: "head";}
+body > main {grid-area: "main";}
+
+h1, h2, h3, h4 {
+    line-height: 1.2;
+}
