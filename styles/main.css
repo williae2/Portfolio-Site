@@ -7,10 +7,6 @@ body {
     font-size: 18px;
     max-width: 50rem;
     background-color: rgb(201, 185, 165);
-    grid-template-areas:
-    "head main"
-    "nav main"
-    "nav footer";
 }
 body > nav {grid-area: "nav";}
 body > header {grid-area: "head";}
